@@ -1,0 +1,41 @@
+TASK 4 — HYPOTHESIS TESTING SUMMARY
+
+Business Question:
+Do average transaction sales differ between Male and Female customers?
+
+Null Hypothesis (H0):
+There is no statistically significant difference in average Total_Sales
+between Male and Female customers.
+
+Alternative Hypothesis (H1):
+There is a statistically significant difference in average Total_Sales
+between Male and Female customers.
+
+Test:
+Welch's independent two-sample t-test
+
+Significance level:
+alpha = 0.05
+
+Results:
+Male transactions: 511
+Female transactions: 489
+Male mean sales: ₹141,807.34
+Female mean sales: ₹136,883.21
+Mean difference (Male - Female): ₹4,924.13
+t-statistic: 0.6826
+p-value: 0.4950
+Welch degrees of freedom: 997.98
+95% confidence interval: ₹-9,231.58 to ₹19,079.85
+Cohen's d: 0.0431
+
+Decision:
+Do not reject H0
+
+Business Conclusion:
+The analysis does not provide sufficient statistical evidence at the 5% significance level to conclude that average transaction sales differ between Male and Female customers.
+
+Important interpretation:
+The observed difference in sample means does not by itself establish
+that gender causes differences in sales. This is an observational dataset,
+so the result should be interpreted as an association within this sample.
